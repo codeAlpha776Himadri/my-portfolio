@@ -100,33 +100,33 @@ const  Navbar = () => {
 
       <div className={click ? "social-icons  active" : "social-icons"}>
         <div>
-          <a href="https://www.facebook.com/vibhaysinghjnv" target="_blank">
+          <a href="#" target="_blank">
             <FaFacebook className="facebook" />
           </a>
         </div>
         <div>
           <a
-            href="https://www.instagram.com/invites/contact/?i=cy78k4lrl70l&utm_content=8k8y10j"
+            href="https://www.instagram.com/stoic.himadri_/"
             target="_blank"
           >
             <FaInstagram className="instagram" />
           </a>
         </div>
         <div>
-          <a href="https://github.com/vibhaysingh" target="_blank">
+          <a href="https://github.com/codeAlpha776Himadri/" target="_blank">
             <FaGithub className="github" />
           </a>
         </div>
         <div>
           <a
-            href="https://www.linkedin.com/in/vibhay-singh-56a9141a7"
+            href="https://www.linkedin.com/in/himadrichakraborty7/"
             target="_blank"
           >
             <FaLinkedin className="linkedin" />
           </a>
         </div>
         <div>
-          <a href="https://twitter.com/Vibhay_4?s=08" target="_blank">
+          <a href="#" target="_blank">
             <FaTwitter className="twitter" />
           </a>
         </div>
