@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+body {
+  background: hsla(138, 82%, 69%, 1);
+
+  background: hsla(138, 82%, 69%, 1);
+
+  background: linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EF195", endColorstr="#00E3FD", GradientType=1 );
+
+  overflow-x: hidden;
+  min-width: 360px;
+  width: 100%;
+}
+:root {
+  scroll-padding-top: 90px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+}

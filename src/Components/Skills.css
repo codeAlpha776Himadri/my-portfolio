@@ -1,0 +1,111 @@
+.skills {
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+background: hsla(138, 82%, 69%, 1);
+
+background: linear-gradient(270deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EF195", endColorstr="#00E3FD", GradientType=1 );
+
+
+  min-height: 100vh;
+}
+.skills_heading h1 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 3%;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 15%;
+}
+.skills_heading h1::after {
+  content: "";
+  width: 72%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.541);
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+  margin-left: 1%;
+}
+
+.skill_card {
+  margin-bottom: 1.5rem;
+  padding: 1.4rem 1.6rem;
+  border-radius: 5px;
+  background-color: rgba(144, 144, 144, 0.405);
+  z-index: 1;
+  border-left: 7px solid rgba(0, 162, 149, 0.923);
+  width: 70%;
+  margin-left: 15%;
+  padding-left: 3rem;
+}
+.card_heading {
+  display: block;
+  color: rgba(0, 0, 0, 0.959);
+  font-size: 1.25rem;
+  margin-top: -0.5rem;
+  text-transform: uppercase;
+}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 50px;
+  margin-top: 1.4rem;
+}
+.logo {
+  display: flex;
+  box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo1 {
+  font-size: 1.6rem;
+  color: rgb(0, 105, 96);
+  margin-right: 10px;
+}
+.logo1_img img {
+  width: 2rem;
+  height: 2rem;
+}
+.text {
+  font-size: 1.14rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 870px) {
+  .skills {
+    margin-top: 11rem;
+  }
+  .skills_heading h1 {
+    text-align: center;
+  }
+  .skills_heading h1::after {
+    display: none;
+  }
+  .skill_card {
+    width: 90%;
+    margin-left: 7%;
+  }
+  .skills_heading h1 {
+    margin-left: 0;
+    margin-bottom: 10%;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 870px) {
+  .skills {
+    margin-top: 0;
+  }
+  .skill_card {
+    margin-left: 4%;
+  }
+}

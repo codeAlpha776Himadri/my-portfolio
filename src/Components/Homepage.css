@@ -1,0 +1,125 @@
+.home-container {
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  display: flex;
+  /* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+
+
+background: hsla(138, 82%, 69%, 1);
+
+background: linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EF195", endColorstr="#00E3FD", GradientType=1 );
+
+  justify-content: center;
+}
+.homepage-intro {
+  width: 45vw;
+  text-align: center;
+  padding-top: 10rem;
+}
+.homepage-intro h1 span {
+  font-size: 5.5rem;
+  font-weight: 520;
+}
+.homepage-intro p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: white;
+}
+.homepage-intro .resume-btn button {
+  margin-top: 1rem;
+  padding: 10px 14px 12px 16px;
+  outline: none;
+  border: none;
+  background: rgba(150, 150, 150, 0.389);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  border: black solid 1px;
+  border-left: black solid 3.2px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  /* letter-spacing: 1px; */
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  width: 12rem;
+}
+.homepage-video img {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-top: 7%;
+}
+.text-color {
+  color: rgb(0, 0, 0);
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 870px) {
+  .home-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* margin-top: -6.2rem; */
+    height: 100vh;
+  }
+  .homepage-intro {
+    width: 100%;
+    margin-top: 45%;
+  }
+  .homepage-video {
+    width: 100%;
+  }
+  .homepage-video img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.type-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  min-height: 60px;
+}
+
+#line {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #00ffea;
+  text-align: center;
+}
+@media screen and (max-width: 412px) {
+  .homepage-video video {
+    width: 95vw;
+    height: 69%;
+  }
+  .home-container {
+    margin-top: -7.67rem;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 870px) {
+  .homepage-video {
+    width: 90%;
+    height: 90%;
+  }
+  .homepage-intro {
+    margin-top: 0%;
+  }
+  .home-container {
+    height: 100%;
+  }
+}
